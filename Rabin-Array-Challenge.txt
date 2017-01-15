@@ -1,0 +1,44 @@
+WAP that allows a user to create and modify an array of size 10. Below is the menu that should be displayed. 
+=====================================================
+1. Clear the array 
+2. Insert element at location
+3. Delete element at location
+4. Sort array
+5. Output sum of the array
+6. Output product of the array
+7. Print Array
+8. Quit
+ 
+
+Below is an specification of each of the 8 menu items. 
+======================================================
+1. When a user clears the array, every spot should be replaced with a '0' 
+2. When a user inserts into array, program should ask user for which location, and then ask for which value to insert. 
+3. When a user deltes an element from array, program should ask user for which location. That location in array should be replaced with 0. 
+4. When a user selects sort, the array should be sorted using bubble sort. 
+5. When a user selects sum of array, program should output the sum of all elements in the array. 
+6. When user selects product of array, program should output the product of all elements in the array. 
+7. When user selects print array, program should print the entire array on one line in the following format. I.E. [10,3,4,5]
+8. When a user selects quit, program ends. 
+
+Hints
+=====
+* This program will be easiest if you put different parts of it into sub routines (or functions). You will need to look up
+about how to use a sub routine in QBASIC. They are much like functions, except they don't have a "return" statement. 
+
+* You need to create array in a special way so it can be accessed within sub routine. To do this, you must
+use the keyword shared. Example is: DIM shared arrName(10)
+
+* You need to display the menu over and over again, so there should be a loop, that ends once a user enters 8. 
+
+* There are a lot of parts to this problem!! You may want to work on them seperately at first. For example, you could first work on getting
+bubble sort to work in QBASIC seperately. 
+
+
+Completion 
+=====
+* Upload your solution to this program to a git repository titled: QBasic-Array-Problem. I will check your work there and give you feedback. 
+* Your repository should include a README file with brief explanation of the program. 
+
+
+
